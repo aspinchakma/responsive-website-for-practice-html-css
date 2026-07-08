@@ -67,7 +67,7 @@ nav > h2 {
 /* see it in action section */
 .see_it_in {
   display: grid;
-  grid-template-columns: 5fr 4fr;
+  grid-template-columns: 4fr 4fr;
   gap: 30px;
   margin: 100px auto;
   height: 328px;
@@ -81,6 +81,7 @@ nav > h2 {
   color: #25243280;
   font-size: 22px;
   margin: 23px 0;
+  line-height: 32px;
 }
 .see_it_in_right {
   height: 100%;
@@ -88,4 +89,6 @@ nav > h2 {
 .see_it_in img {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
 }
