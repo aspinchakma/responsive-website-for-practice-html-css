@@ -168,3 +168,21 @@ nav > h2 {
   height: 40px;
   border-radius: 20px;
 }
+
+/* focus section */
+.focus {
+  padding: 70px 150px;
+  text-align: center;
+}
+.focus h2 {
+  font-size: 35px;
+}
+.focus p {
+  margin: 20px 0;
+}
+.focus > div {
+  margin-top: 20px;
+}
+.focus img {
+  border-radius: 48px;
+}
