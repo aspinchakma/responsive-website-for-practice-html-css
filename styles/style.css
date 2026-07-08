@@ -8,3 +8,41 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+/* common style */
+.common_width {
+  width: 80%;
+  margin: 0 auto;
+}
+.border {
+  border: 1px solid black;
+}
+.common_button {
+  padding: 12px 36px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  background-color: #4e47ffff;
+  border: 1px solid #4e47ffff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.common_button:hover {
+  background-color: white;
+  color: #4e47ffff;
+}
+.common_color {
+  color: #4e47ffff;
+}
+/* header section */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+nav > h2 {
+  font-size: 34px;
+  font-weight: 900;
+}
