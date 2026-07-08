@@ -35,14 +35,28 @@ body {
   color: #4e47ffff;
 }
 /* header section */
-
+header {
+  background-image: url("../Assets/Hero-bg.png");
+  background-size: cover;
+}
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 30px 0;
 }
 nav > h2 {
   font-size: 34px;
   font-weight: 900;
+}
+
+/* hero container */
+.hero_container {
+  text-align: center;
+  padding: 178px 0;
+}
+.hero_container h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
